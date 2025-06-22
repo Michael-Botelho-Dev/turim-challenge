@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Micro App - Pessoas e Filhos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <button onclick="gravar()">Gravar</button>
+    <button onclick="ler()">Ler</button>
+    <br><br>
+
+    <label>Nome</label>
+    <input type="text" id="nome">
+    <button onclick="incluir()">Incluir</button>
+
+    <br><br>
+
+    <table>
+        <tr>
+            <th>Pessoas</th>
+        </tr>
+        <tbody id="tabela"></tbody>
+    </table>
+
+    <textarea id="json" readonly></textarea>
+
+    <script src="app.js"></script>
+</body>
+</html>
