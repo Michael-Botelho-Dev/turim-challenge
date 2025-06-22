@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    display: inline-block;
+    width: 200px;
+    border-collapse: collapse;
+    background-color: #eee;
+    vertical-align: top;
+}
+
+th {
+    background-color: #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+td {
+    background-color: #ddd;
+    padding: 5px;
+    border-bottom: 1px solid #aaa;
+}
+
+button {
+    margin: 2px;
+}
+
+textarea {
+    width: 400px;
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+}
